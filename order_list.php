@@ -9,7 +9,7 @@ authsessionCheck();
 include_once("oauthbx24/include/config.php");
 
 // задаем html-title страницы
-$CONFIG['title_header'] = "Заказы в производстве - ".$CONFIG['title_header'];
+$CONFIG['title_header'] = "Заказы - ".$CONFIG['title_header'];
 
 //подключаем верстку
 include("head.inc.php"); //шапка сайта
